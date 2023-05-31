@@ -115,6 +115,8 @@ function get_project {
 	fi
 }
 
-function final { echo "$(tput setaf 8)[Bot assistant]:$(tput setaf 7) Programa finalizado!" }
+function final { 
+	echo "$(tput setaf 8)[Bot assistant]:$(tput setaf 7) Programa finalizado!" 
+	}
 
 main
